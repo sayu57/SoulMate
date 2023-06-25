@@ -83,6 +83,7 @@ hr.sep-2 {
 }
 .details img{
     height: 100px;
+    width: 200px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -150,7 +151,7 @@ hr.sep-2 {
     color: #9DC08B;
 }
 .whatMakesHerPretty li{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 30px;
     color: #EDF1D6;
 }
