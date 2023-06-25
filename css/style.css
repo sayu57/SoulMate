@@ -82,13 +82,11 @@ hr.sep-2 {
     margin-bottom: 50px;
 }
 .details img{
-    height: 100px;
-    width: 200px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-.details img:hover{
     height: 180px;
+    width: 280px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: -25px;
 }
 
 .description{
@@ -285,7 +283,7 @@ hr.sep-2 {
 	transition: 0.3s;
 }
 .gallery:hover .gallery__image {
-	/* filter: grayscale(1); */
+	filter: none; /* grayscale(1) */
 }
 .gallery__column {
 	display: flex;
@@ -297,7 +295,7 @@ hr.sep-2 {
 	overflow: hidden;
 }
 .gallery__link:hover .gallery__image {
-	/* filter: grayscale(0); */
+	filter: none; /* grayscale(0) */
 }
 .gallery__link:hover .gallery__caption {
 	opacity: 1;
