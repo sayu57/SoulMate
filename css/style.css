@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color: #FCE9F1;
+}
+
+h1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+p, li, ul, ol{
+    font-size: 1.2rem;
+}
+
+div{
+    border-radius: 20px;
+}
+
+.top-container{
+    height: 100%;
+    display: grid;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+.name h1{
+    margin-bottom: 20px;
+    font-size: 3.9rem;
+}
+
+.profilePic img{
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#between{
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: -100px;
+}
+
+.details{
+    margin: auto;
+    width: 50%;
+    background-color: #F2BED1;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.details h1{
+    margin-bottom: 20px;
+}
+.details h3{
+    margin-bottom: 5px;
+}
+.details p{
+    margin-bottom: 20px;
+}
+.details img{
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.details img:hover{
+    height: 180px;
+}
+
+.description{
+    background-color: #F2BED1;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.description h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.description p{
+    font-size: 1.5rem;
+}
+
+.thingsShe{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+
+.thingsSheLikes, .thingsSheHates{
+    width: 50%;
+    margin-left: 100px;
+    background-color: #F2BED1;
+    padding: 30px;
+    text-align: center;
+}
+.thingsSheLikes li, .thingsSheHates li{
+    margin-left: 30px;
+    text-align: left;
+
+}
+.thingsSheLikes h1, .thingsSheHates h1{
+    margin-bottom: 20px;
+}
+.thingsSheHates{
+    margin-left: 20px;
+    width: 50%;
+    background-color: #F2BED1;
+}
+
+.whatMakesHerPretty{
+    background-color: #F2BED1;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+}
+.whatMakesHerPretty h1{
+    margin-bottom: 20px;
+}
+.whatMakesHerPretty li{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.whatMakesHerPretty p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#summary{
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.thingsAbtHer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+.thingsTOLikeAbtHer, .thingsToHateAbtHer{
+    background-color: #F2BED1;
+    margin: auto;
+    margin-top: 20px;
+    height: 210px;
+    padding: 40px;
+    width: 50%;
+    margin-left: 50px;
+}
+.thingsTOLikeAbtHer h1{
+    margin-bottom: 20px;
+}
+.thingsTOLikeAbtHer ul{
+    margin-left: 5%;
+}
+.thingsToHateAbtHer h1{
+    margin-bottom: 20px;
+}
+.thingsToHateAbtHer ul{
+    margin-left: 5%;
+}
+
+.mythsVSfacts{
+    background-color: #F2BED1;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+.mythsVSfacts h1{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.mythsVSfacts h3{
+    margin-bottom: 5px;
+}
+.mythsVSfacts p{
+    margin-bottom: 30px;
+}
+.mythsVSfacts li{
+    margin-left: 20px;
+}
+.mvfs{
+    font-weight: 1000;
+}
+
+.herPlaylist{
+    width: 50%;
+    background-color: #F2BED1;
+    margin:auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+.herPlaylist h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.playlistImg{
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 20%;
+}
+.playlistImg:hover{
+    height: 120px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
+
+.songToHer{
+    background-color: #F2BED1;
+    margin:auto;
+    margin-top: 20px;
+    width: 40%;
+    padding: 30px;
+}
+.songToHer h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.tereHawale{
+    margin-left: 20%;
+    color: #F2BED1;
+}
+
+
+.gallery {
+	display: flex;
+	padding: 2px;
+	transition: 0.3s;
+}
+.gallery:hover .gallery__image {
+	/* filter: grayscale(1); */
+}
+.gallery__column {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.gallery__link {
+	margin: 2px;
+	overflow: hidden;
+}
+.gallery__link:hover .gallery__image {
+	/* filter: grayscale(0); */
+}
+.gallery__link:hover .gallery__caption {
+	opacity: 1;
+}
+.gallery__thumb {
+	position: relative;
+}
+.gallery__image {
+	display: block;
+	width: 100%;
+	transition: 0.3s;
+}
+.gallery__image:hover {
+	transform: scale(1.1);
+}
+.gallery__caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 25px 15px 15px;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: white;
+	opacity: 0;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
+	transition: 0.3s;
+}
+
+@media all and (max-width: 1000px) {
+    .details{
+        width: 80%;
+    }
+    .thingsShe{
+        display: grid;
+    }
+    .thingsSheLikes{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .thingsSheHates{
+        margin: auto;
+        width: 80%;
+    }
+    .whatMakesHerPretty{
+        width: 70%;
+    }
+
+    .thingsAbtHer{
+        display: grid;
+    }
+    .thingsTOLikeAbtHer{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .thingsToHateAbtHer{
+        margin: auto;
+        width: 70%;
+        height: 290px;
+    }
+
+    .mythsVSfacts{
+        width: 80%;
+    }
+
+    .playlistImg{
+        margin-bottom: 40px;
+        margin-left: 10%;
+    }
+
+    .tereHawale{
+        width: 100%;
+        margin-left: 0;
+    }
+}
