@@ -131,6 +131,11 @@ hr.sep-2 {
 .thingsSheLikes h1, .thingsSheHates h1{
     margin-bottom: 40px;
 }
+.thingsSheLikes p{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 2rem;
+}
 .thingsSheHates{
     margin-left: 20px;
     width: 50%;
@@ -230,7 +235,7 @@ hr.sep-2 {
 
 .herPlaylist{
     width: 60%;
-    background-color: #e7c64e;
+    background-color:#e7c64e;
     margin:auto;
     margin-top: 20px;
     padding: 30px;
