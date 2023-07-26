@@ -1,436 +1,501 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-body{
-    background-color: aliceblue;
+html,
+body {
+  overflow-x: hidden;
 }
 
-h1{
-    font-size: 3rem;
-    font-family: 'Acme', sans-serif;
-}
-h3{
-    font-size: 2.2rem;
-    font-family: 'Rowdies', cursive;
-}
-p, li, ul, ol{
-    font-size: 1.7rem;
-    font-family: 'Kalam', cursive;
+body {
+  background-color: aliceblue;
+  overflow-x: hidden;
 }
 
-div{
-    border-radius: 20px;
+h1 {
+  font-size: 3rem;
+  font-family: "Acme", sans-serif;
+}
+h3 {
+  font-size: 2.2rem;
+  font-family: "Rowdies", cursive;
+}
+p,
+li,
+ul,
+ol {
+  font-size: 1.7rem;
+  font-family: "Kalam", cursive;
 }
 
+div {
+  border-radius: 20px;
+}
+.sha:hover {
+  box-shadow: 10px 5px 5px grey;
+  transform: scale(1.01) !important;
+}
 hr.sep-2 {
-    border: 0; 
-    height: 3px;
-    width: 30%;
-    margin: auto;
-    margin-bottom: 200px; 
-    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
-  }
-
-.snee{
-    margin-bottom: 500px;
+  border: 0;
+  height: 3px;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 200px;
+  background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
 }
 
-.top-container{
-    height: 100%;
-    display: grid;
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 200px;
-    justify-content: center;
+.snee {
+  margin-bottom: 500px;
 }
 
-.name h1{
-    margin-bottom: 20px;
-    font-size: 3.9rem;
-    font-weight: bolder;
-    font-family: 'Acme', sans-serif;
+.top-container {
+  height: 100%;
+  display: grid;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  justify-content: center;
 }
 
-.profilePic img{
-    height: 300px;
-    margin-left: 30px;
-    margin-top: 40px;
+.name h1 {
+  margin-bottom: 20px;
+  font-size: 3.9rem;
+  font-weight: bolder;
+  font-family: "Acme", sans-serif;
 }
 
-.details{
-    margin: auto;
-    width: 50%;
-    background-color: #1E2022;
-    color: aliceblue;
-    padding: 20px 20px 20px 20px;
-    text-align: center;
-    border-radius: 20px;
-    margin-bottom: 200px;
-    height: max-content;
-}
-.details h1{
-    margin-bottom: 70px;
-    color: #3FC1C9;
-}
-.details h3{
-    margin-bottom: 5px;
-}
-.details p{
-    margin-bottom: 50px;
-}
-.details img{
-    height: 180px;
-    width: 280px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    margin-top: -25px;
+.profilePic img {
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 40px;
 }
 
-.description{
-    margin: auto;
-    width: 50%;
-    margin-top: 20px;
-    padding: 20px;
-    margin-bottom: 200px;
+.details {
+  margin: auto;
+  width: 50%;
+  background-color: #1e2022;
+  color: aliceblue;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 200px;
+  height: max-content;
 }
-.description h1{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
+.details h1 {
+  margin-bottom: 70px;
+  color: #3fc1c9;
 }
-.description p{
-    font-size: 1.5rem;
+.details h3 {
+  margin-bottom: 5px;
 }
-
-.thingsShe{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: auto;
-    width: 90%;
-    margin-bottom: 200px;
+.details p {
+  margin-bottom: 50px;
 }
-
-.thingsSheLikes, .thingsSheHates{
-    width: 50%;
-    margin-left: 100px;
-    padding: 30px;
-    background-color: #8BACAA;
-    text-align: center;
-}
-.thingsSheLikes li, .thingsSheHates li{
-    margin-left: 30px;
-    text-align: left;
-    margin-bottom: 10px;
-    font-weight: 500;
-
-}
-.thingsSheLikes h1, .thingsSheHates h1{
-    margin-bottom: 40px;
-}
-.thingsSheLikes p{
-    text-align: left;
-    font-weight: bolder;
-    font-size: 2rem;
-}
-.thingsSheHates{
-    margin-left: 20px;
-    width: 50%;
-    background-color: #EA906C;
+.details img {
+  height: 180px;
+  width: 280px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: -25px;
 }
 
-.whatMakesHerPretty{
-    background-color: #40513B;
-    padding: 30px;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 200px;
+.description {
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 200px;
 }
-.whatMakesHerPretty h1{
-    margin-bottom: 50px;
-    color: #9DC08B;
+.description h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
-.whatMakesHerPretty li{
-    margin-bottom: 40px;
-    margin-left: 30px;
-    color: #EDF1D6;
+.description p {
+  font-size: 1.5rem;
 }
-.whatMakesHerPretty p{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #EDF1D6;
+.description h3 {
+  margin-bottom: 20px;
 }
-#summary{
-    margin-top: 40px;
-    font-size: 2rem;
-    color: #EDF1D6;
+.description .span {
+  font-size: 20px;
 }
 
-.thingsAbtHer{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: auto;
-    width: 90%;
-    margin-bottom: 200px;
-}
-.thingsTOLikeAbtHer, .thingsToHateAbtHer{
-    background-color: #C4D7B2;
-    margin: auto;
-    margin-top: 20px;
-    height: max-content;
-    padding: 40px;
-    width: 50%;
-    margin-left: 50px;
-}
-.thingsToHateAbtHer{
-    background-color: #84A7A1;
-}
-.thingsTOLikeAbtHer h1{
-    margin-bottom: 40px;
-}
-.thingsTOLikeAbtHer ul{
-    margin-left: 5%;
-}
-.thingsToHateAbtHer h1{
-    margin-bottom: 40px;
-}
-.thingsToHateAbtHer li{
-    margin-left: 5%;
-    margin-bottom: 20px;
+.thingsShe {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 200px;
 }
 
-.mythsVSfacts{
-    background-color: #222831;
-    padding: 20px;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 200px;
+.thingsSheLikes,
+.thingsSheHates {
+  width: 50%;
+  margin-left: 100px;
+  padding: 30px;
+  background-color: #8bacaa;
+  text-align: center;
 }
-.mythsVSfacts h1{
-    margin-bottom: 40px;
-    text-align: center;
-    color: #00ADB5;
+.thingsSheLikes li,
+.thingsSheHates li {
+  margin-left: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
-.mythsVSfacts h3{
-    margin-bottom: 5px;
-    color: #EEEEEE;
+.thingsSheLikes h1,
+.thingsSheHates h1 {
+  margin-bottom: 40px;
 }
-.mythsVSfacts p{
-    margin-bottom: 30px;
-    color: #EEEEEE;
+.thingsSheLikes p {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 2rem;
 }
-.mythsVSfacts li{
-    margin-left: 20px;
-    color: #EEEEEE;
-}
-.mvfs{
-    font-weight: 1000;
-}
-
-.herPlaylist{
-    width: 60%;
-    background-color:#e7c64e;
-    margin:auto;
-    margin-top: 20px;
-    padding: 30px;
-    display: flex;
-    margin-bottom: 200px;
-}
-.herPlaylist h1{
-    margin-top: 25px;
-    text-align: center;
-    margin-right: 1px;
-    margin-left: 70px;
-}
-.link1, .link2{
-    margin-left: 40px;
-}
-.playlistImg{
-    height: 100px;
-    border-radius: 100%;
-}
-.playlistImg:hover{
-    height: 120px;
-    margin-right: -20px;
-    margin-bottom: -20px;
+.thingsSheHates {
+  margin-left: 20px;
+  width: 50%;
+  background-color: #ea906c;
 }
 
-.songToHer{
-    background-color: #DBE2EF;
-    margin:auto;
-    margin-top: 20px;
-    width: 40%;
-    padding: 30px;
-    margin-bottom: 200px;
+.whatMakesHerPretty {
+  background-color: #40513b;
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 200px;
 }
-.songToHer h1{
-    text-align: center;
-    margin-bottom: 40px;
+.whatMakesHerPretty h1 {
+  margin-bottom: 50px;
+  color: #9dc08b;
 }
-.tereHawale{
-    width: 60%;
-    margin-left: 20%;
+.whatMakesHerPretty li {
+  margin-bottom: 40px;
+  margin-left: 30px;
+  color: #edf1d6;
+}
+.whatMakesHerPretty p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #edf1d6;
+}
+#summary {
+  margin-top: 40px;
+  font-size: 2rem;
+  color: #edf1d6;
 }
 
-#galleryTitle{
-    text-align: center;
-    margin-top: 80px;
+.thingsAbtHer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 200px;
+}
+.thingsTOLikeAbtHer,
+.thingsToHateAbtHer {
+  background-color: #c4d7b2;
+  margin: auto;
+  margin-top: 20px;
+  height: max-content;
+  padding: 40px;
+  width: 50%;
+  margin-left: 50px;
+}
+.thingsToHateAbtHer {
+  background-color: #84a7a1;
+}
+.thingsTOLikeAbtHer h1 {
+  margin-bottom: 40px;
+}
+.thingsTOLikeAbtHer ul {
+  margin-left: 5%;
+}
+.thingsToHateAbtHer h1 {
+  margin-bottom: 40px;
+}
+.thingsToHateAbtHer li {
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+.mythsVSfacts {
+  background-color: #222831;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.mythsVSfacts h1 {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #00adb5;
+}
+.mythsVSfacts h3 {
+  margin-bottom: 5px;
+  color: #eeeeee;
+}
+.mythsVSfacts p {
+  margin-bottom: 30px;
+  color: #eeeeee;
+}
+.mythsVSfacts li {
+  margin-left: 20px;
+  color: #eeeeee;
+}
+.mvfs {
+  font-weight: 1000;
+}
+
+.herPlaylist {
+  width: 60%;
+  background-color: #e7c64e;
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  margin-bottom: 200px;
+}
+.herPlaylist h1 {
+  margin-top: 25px;
+  text-align: center;
+  margin-right: 1px;
+  margin-left: 70px;
+}
+.link1,
+.link2 {
+  margin-left: 40px;
+}
+.playlistImg {
+  height: 100px;
+  border-radius: 100%;
+}
+.playlistImg:hover {
+  height: 120px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+}
+
+.songToHer {
+  background-color: #dbe2ef;
+  margin: auto;
+  margin-top: 20px;
+  width: 40%;
+  padding: 30px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.songToHer h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.tereHawale {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.songsToHer p {
+  font-size: 10px;
+}
+
+#galleryTitle {
+  text-align: center;
+  margin-top: 80px;
 }
 .gallery {
-	display: flex;
-	padding: 2px;
-	transition: 0.3s;
+  display: flex;
+  padding: 2px;
+  transition: 0.3s;
+  margin-bottom: 200px;
 }
 .gallery:hover .gallery__image {
-	filter: none; /* grayscale(1) */
+  filter: none; /* grayscale(1) */
 }
 .gallery__column {
-	display: flex;
-	flex-direction: column;
-	width: 25%;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 }
 .gallery__link {
-	margin: 2px;
-	overflow: hidden;
+  margin: 2px;
+  overflow: hidden;
 }
 .gallery__link:hover .gallery__image {
-	filter: none; /* grayscale(0) */
+  filter: none; /* grayscale(0) */
 }
 .gallery__link:hover .gallery__caption {
-	opacity: 1;
+  opacity: 1;
 }
 .gallery__thumb {
-	position: relative;
+  position: relative;
 }
 .gallery__image {
-	display: block;
-	width: 100%;
-	transition: 0.3s;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
 }
 .gallery__image:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 .gallery__caption {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 25px 15px 15px;
-	width: 100%;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	color: white;
-	opacity: 0;
-	background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
-	transition: 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}
+.mob {
+  display: none;
 }
 
-.footer{
-    margin-top: 200px;
-    background-color: #1E2022;
-    padding: 20px;
-    border-radius: 0;
+.faq {
+  margin-top: 200px;
+  padding: 50px;
+  text-align: justify;
 }
-.footer h1{
-    color: #00ADB5;
-    font-size: 2rem;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-}
-.tbf{
-    display: flex;
-}
-.her p, .soulmate p{
-    color: #00ADB5;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-.her img, .soulmate img{
-    height: 40px;
-}
-.her{
-    width: 50%;
-    text-align: center;
-}
-.soulmate{
-    width: 50%;
-    text-align: center;
+.faq h3 {
+  margin-top: 40px;
 }
 
+.footer {
+  margin-top: 200px;
+  background-color: #1e2022;
+  padding: 20px;
+  border-radius: 0;
+}
+.footer h1 {
+  color: #00adb5;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.tbf {
+  display: flex;
+}
+.her p,
+.soulmate p {
+  color: #00adb5;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.her img,
+.soulmate img {
+  height: 40px;
+}
+.her {
+  width: 50%;
+  text-align: center;
+}
+.soulmate {
+  width: 50%;
+  text-align: center;
+}
 
 @media all and (max-width: 1000px) {
-    .details{
-        width: 80%;
-    }
+  body {
+    overflow-x: hidden !important;
+  }
+  .details {
+    width: 80%;
+  }
 
-    .description{
-        width:90%;
-    }
+  .description {
+    width: 90%;
+  }
 
-    .thingsShe{
-        display: grid;
-    }
-    .thingsSheLikes{
-        margin: auto;
-        margin-bottom: 20px;
-        width: 70%;
-    }
-    .thingsSheHates{
-        margin: auto;
-        width: 70%;
-    }
-    .whatMakesHerPretty{
-        width: 70%;
-    }
+  .thingsShe {
+    display: grid;
+  }
+  .thingsSheLikes {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .thingsSheHates {
+    margin: auto;
+    width: 70%;
+  }
+  .whatMakesHerPretty {
+    width: 70%;
+  }
 
-    .thingsAbtHer{
-        display: grid;
-    }
-    .thingsTOLikeAbtHer{
-        margin: auto;
-        margin-bottom: 20px;
-        width: 70%;
-    }
-    .thingsToHateAbtHer{
-        margin: auto;
-        width: 70%;
-        height: max-content;
-    }
+  .thingsAbtHer {
+    display: grid;
+  }
+  .thingsTOLikeAbtHer {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .thingsToHateAbtHer {
+    margin: auto;
+    width: 70%;
+    height: max-content;
+  }
 
-    .mythsVSfacts{
-        width: 80%;
-    }
+  .mythsVSfacts {
+    width: 80%;
+  }
 
-    .herPlaylist{
-        display: grid;
-        
-    }
-    .herPlaylist h1{
-        margin-left: 0;
-        margin-bottom: 40px;
-    }
-    .link1, .link2{
-        margin: auto;
-        margin-bottom: 30px;
-    }
+  .herPlaylist {
+    display: grid;
+  }
+  .herPlaylist h1 {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .link1,
+  .link2 {
+    margin: auto;
+    margin-bottom: 30px;
+  }
 
-    .songToHer{
-        width: 80%;
-    }
-    .tereHawale{
-        width: 100%;
-        margin-left: 0;
-    }
-    .her{
-        margin-left: -20px;
-    }
-    .her p, .soulmate p{
-        font-size: 1.2rem;
-    }
+  .songToHer {
+    width: 80%;
+  }
+  .tereHawale {
+    width: 100%;
+    margin-left: 0;
+  }
+  .her {
+    margin-left: -20px;
+  }
+  .her p,
+  .soulmate p {
+    font-size: 1.2rem;
+  }
+  .gallery__caption {
+    position: absolute;
+    bottom: -40;
+    left: 0;
+    padding: 25px 10px 5px;
+    width: 80%;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    color: white;
+    opacity: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.3s;
+  }
+  .lap {
+    display: none;
+  }
+  .mob {
+    display: flex;
+  }
 }
