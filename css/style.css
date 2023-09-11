@@ -8,6 +8,36 @@ html,
 body {
   overflow-x: hidden;
 }
+.bg {
+  background: linear-gradient(-45deg, #d8b5ff, #1eae98);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 body {
   background-color: aliceblue;
@@ -34,16 +64,10 @@ div {
   border-radius: 20px;
 }
 .sha:hover {
-  box-shadow: 10px 5px 5px grey;
   transform: scale(1.01) !important;
 }
 hr.sep-2 {
-  border: 0;
-  height: 3px;
-  width: 30%;
-  margin: auto;
   margin-bottom: 200px;
-  background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
 }
 
 .snee {
@@ -404,6 +428,9 @@ hr.sep-2 {
 .soulmate {
   width: 50%;
   text-align: center;
+}
+.tbf img:hover {
+  transform: scale(1.1);
 }
 
 @media all and (max-width: 1000px) {
